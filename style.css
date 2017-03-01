@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    margin: 1em;
+}
+
+.unstyled-list {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+form {
+    margin-bottom: 3em;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.3em;
+}
+
+form input[type="text"] {
+    padding: 0.5em;
+    font-size: inherit;
+}
+
+.mp-profiles-list-letter {
+    float: left;
+    margin: 12px 0 0 0;
+    font-size: 3.5em;
+    line-height: 1em;
+    color: #999;
+}
+
+.list-of-profiles-by-letter {
+    margin-left: 6em;
+    margin-bottom: 3em;
+}
+
+.person-list-item {
+    border-bottom: 1px solid #ddd;
+    padding: 1em 0;
+}
+
+.person-list-item img {
+    height: 3em;
+    width: auto;
+    margin-right: 1em;
+}
+
+.person-list-item img,
+.person-list-item .name {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.person-list-item a {
+    text-decoration: none;
+}
+
+.person-list-item--hidden,
+.mp-profiles-list-letter--hidden,
+.js-mp-profiles-live-results--hidden,
+.js-mp-profiles-live-source--hidden {
+    display: none;
+}
